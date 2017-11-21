@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.nora.firebase.MainActivity">
+
+    <EditText
+        android:id="@+id/edittextname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"/>
+
+    <EditText
+        android:id="@+id/edittextscore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Score"/>
+
+    <Button
+        android:id="@+id/createbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Score"/>
+
+    <ListView
+        android:id="@+id/userlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
